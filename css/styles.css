@@ -1,0 +1,192 @@
+body{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+/* we use the '#' sign to navigate the section*/
+#title{
+    background-color: #ff4c68;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', san-serif;
+
+}
+
+h2{
+    font-size: 250%;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h3{
+    font-weight: 600;
+    color: black;
+    font-size: 120%;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.heading{
+    font-family: 'Montserrat', san-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: 900;
+}
+
+
+.container-fluid
+{
+    padding: 3% 15% 7%;
+}
+
+
+/* NAVIGATION BAR */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+
+/* Download Button */
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+/* Title image */
+.title-img{
+    width: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+/* Features Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* We use pusedo to edit some things in css */
+.icons:hover{
+    color:#ff4c68;    
+}
+
+
+
+/* testimonials  and section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.dog-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 2% 3%;
+}
+
+
+/* Using media query to change what you want to see on a mobile device */
+
+@media (max-width:1028px)
+{
+    .title-img{
+        position:static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* cta */
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    color: white;
+}
+
+.cta-h{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 300%;
+    color: white;
+}  
+
+.buttons{
+    margin:5% 3% 5% 0%;
+}
+
+/* Footer Section */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 30%;
+}
+.foot-icons{
+    margin: 20px 10px;
+    margin-bottom: 3%;
+}
